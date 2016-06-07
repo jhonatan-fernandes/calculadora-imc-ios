@@ -12,15 +12,19 @@
 
 @property (strong) NSString * nome;
 
-@property (assign) double * peso;
+@property (assign) double peso;
 
-@property (assign) double * altura;
+@property (assign) double  altura;
 
-@property (assign) NSInteger * idade;
+@property (assign) double imc;
+
+@property (assign) double  idade;
 
 -(double) calcImc;
 -(double) getPeso;
 -(double) getAltura;
+-(double) getIdade;
+-(double) getImc;
 -(NSString *) getNome;
 
 @end
