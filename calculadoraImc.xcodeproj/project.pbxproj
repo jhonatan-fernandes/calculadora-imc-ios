@@ -15,6 +15,7 @@
 		768CD55A1D0770CF0076E610 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 768CD5581D0770CF0076E610 /* LaunchScreen.storyboard */; };
 		768CD5651D0770CF0076E610 /* calculadoraImcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 768CD5641D0770CF0076E610 /* calculadoraImcTests.m */; };
 		768CD5701D0770CF0076E610 /* calculadoraImcUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 768CD56F1D0770CF0076E610 /* calculadoraImcUITests.m */; };
+		768CD57F1D0772040076E610 /* Pessoa.m in Sources */ = {isa = PBXBuildFile; fileRef = 768CD57E1D0772040076E610 /* Pessoa.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		768CD56B1D0770CF0076E610 /* calculadoraImcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = calculadoraImcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		768CD56F1D0770CF0076E610 /* calculadoraImcUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = calculadoraImcUITests.m; sourceTree = "<group>"; };
 		768CD5711D0770CF0076E610 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		768CD57D1D0772040076E610 /* Pessoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pessoa.h; sourceTree = "<group>"; };
+		768CD57E1D0772040076E610 /* Pessoa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pessoa.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 				768CD5501D0770CF0076E610 /* ViewController.h */,
 				768CD5511D0770CF0076E610 /* ViewController.m */,
 				768CD5531D0770CF0076E610 /* Main.storyboard */,
+				768CD57D1D0772040076E610 /* Pessoa.h */,
+				768CD57E1D0772040076E610 /* Pessoa.m */,
 				768CD5561D0770CF0076E610 /* Assets.xcassets */,
 				768CD5581D0770CF0076E610 /* LaunchScreen.storyboard */,
 				768CD55B1D0770CF0076E610 /* Info.plist */,
@@ -272,6 +277,7 @@
 			files = (
 				768CD5521D0770CF0076E610 /* ViewController.m in Sources */,
 				768CD54F1D0770CF0076E610 /* AppDelegate.m in Sources */,
+				768CD57F1D0772040076E610 /* Pessoa.m in Sources */,
 				768CD54C1D0770CF0076E610 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
