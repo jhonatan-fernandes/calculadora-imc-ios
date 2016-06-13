@@ -25,6 +25,8 @@
     [pessoa setIdade:24];
     [pessoa setImc:[pessoa calcImc]];
     
+    NSLog(@"%.02f lalala", [pessoa getImc]);
+    
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
