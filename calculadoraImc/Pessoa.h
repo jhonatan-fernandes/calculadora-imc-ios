@@ -11,20 +11,21 @@
 @interface Pessoa : NSObject
 
 @property (strong) NSString * nome;
+@property (strong) NSString * genero;
 
-@property (assign) double peso;
+@property (assign) float peso;
 
-@property (assign) double  altura;
+@property (assign) float  altura;
 
-@property (assign) double imc;
+@property (assign) float imc;
 
-@property (assign) double  idade;
+@property (assign) float  idade;
 
--(double) calcImc;
--(double) getPeso;
--(double) getAltura;
--(double) getIdade;
--(double) getImc;
+-(float) calcImc;
+-(float) getPeso;
+-(float) getAltura;
+-(float) getIdade;
+-(void) getImc;
 -(NSString *) getNome;
 
 @end

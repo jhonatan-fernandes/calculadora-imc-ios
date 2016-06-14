@@ -53,7 +53,7 @@
 		768CD56F1D0770CF0076E610 /* calculadoraImcUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = calculadoraImcUITests.m; sourceTree = "<group>"; };
 		768CD5711D0770CF0076E610 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		768CD57D1D0772040076E610 /* Pessoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pessoa.h; sourceTree = "<group>"; };
-		768CD57E1D0772040076E610 /* Pessoa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pessoa.m; sourceTree = "<group>"; };
+		768CD57E1D0772040076E610 /* Pessoa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = Pessoa.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -504,6 +504,7 @@
 				768CD5761D0770CF0076E610 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		768CD5771D0770CF0076E610 /* Build configuration list for PBXNativeTarget "calculadoraImcTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +513,7 @@
 				768CD5791D0770CF0076E610 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		768CD57A1D0770CF0076E610 /* Build configuration list for PBXNativeTarget "calculadoraImcUITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +522,7 @@
 				768CD57C1D0770CF0076E610 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

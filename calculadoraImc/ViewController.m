@@ -23,8 +23,6 @@
     [pessoa setPeso:103.0 / 1000];
     [pessoa setAltura:185.0 * 2];
     [pessoa setIdade:24];
-    [pessoa setImc:[pessoa calcImc]];
-    
     NSLog(@"%.02f lalala", [pessoa getImc]);
     
 }
