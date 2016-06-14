@@ -1,4 +1,4 @@
-//
+    //
 //  ViewController.m
 //  calculadoraImc
 //
@@ -20,10 +20,12 @@
     
     Pessoa * pessoa =  [Pessoa new];
     [pessoa setNome:@"Abilio Bittencourt"];
-    [pessoa setPeso:103.0 / 1000];
-    [pessoa setAltura:185.0 * 2];
+    [pessoa setPeso:100];
+    [pessoa setAltura:185];
     [pessoa setIdade:24];
-    NSLog(@"%.02f lalala", [pessoa getImc]);
+    [pessoa setGenero:@"menino"];
+    NSLog(@"%f", [pessoa getEmc]);
+    //NSLog(@"%@", [pessoa getImc]);
     
 }
 - (void)didReceiveMemoryWarning {

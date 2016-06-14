@@ -17,15 +17,15 @@
 
 @property (assign) float  altura;
 
-@property (assign) float imc;
+@property (nonatomic) float imc;
 
-@property (assign) float  idade;
+@property (assign) int  idade;
 
--(float) calcImc;
 -(float) getPeso;
 -(float) getAltura;
--(float) getIdade;
--(void) getImc;
+-(NSInteger *) getIdade;
+-(float) getEmc;
+-(NSString *) getImc;
 -(NSString *) getNome;
 
 @end
