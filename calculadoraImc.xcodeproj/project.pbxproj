@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D318A451D14AEFE006CCF37 /* PessoaLastName.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D318A441D14AEFE006CCF37 /* PessoaLastName.m */; };
 		768CD54C1D0770CF0076E610 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 768CD54B1D0770CF0076E610 /* main.m */; };
 		768CD54F1D0770CF0076E610 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 768CD54E1D0770CF0076E610 /* AppDelegate.m */; };
 		768CD5521D0770CF0076E610 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 768CD5511D0770CF0076E610 /* ViewController.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D318A431D14AEFE006CCF37 /* PessoaLastName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PessoaLastName.h; sourceTree = "<group>"; };
+		0D318A441D14AEFE006CCF37 /* PessoaLastName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PessoaLastName.m; sourceTree = "<group>"; };
 		768CD5471D0770CF0076E610 /* calculadoraImc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calculadoraImc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		768CD54B1D0770CF0076E610 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		768CD54D1D0770CF0076E610 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -111,6 +114,8 @@
 				768CD5531D0770CF0076E610 /* Main.storyboard */,
 				768CD57D1D0772040076E610 /* Pessoa.h */,
 				768CD57E1D0772040076E610 /* Pessoa.m */,
+				0D318A431D14AEFE006CCF37 /* PessoaLastName.h */,
+				0D318A441D14AEFE006CCF37 /* PessoaLastName.m */,
 				768CD5561D0770CF0076E610 /* Assets.xcassets */,
 				768CD5581D0770CF0076E610 /* LaunchScreen.storyboard */,
 				768CD55B1D0770CF0076E610 /* Info.plist */,
@@ -276,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				768CD5521D0770CF0076E610 /* ViewController.m in Sources */,
+				0D318A451D14AEFE006CCF37 /* PessoaLastName.m in Sources */,
 				768CD54F1D0770CF0076E610 /* AppDelegate.m in Sources */,
 				768CD57F1D0772040076E610 /* Pessoa.m in Sources */,
 				768CD54C1D0770CF0076E610 /* main.m in Sources */,
