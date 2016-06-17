@@ -36,10 +36,6 @@
     return [self idade];
 }
 
--(float) getEmc {
-    return [self imc];
-}
-
 -(NSString *) getImc{
     
     if(([self idade] >= 6) && ([self idade] <= 15)) {

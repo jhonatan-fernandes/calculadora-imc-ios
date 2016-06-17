@@ -24,7 +24,6 @@
 -(float) getPeso;
 -(float) getAltura;
 -(NSInteger *) getIdade;
--(float) getEmc;
 -(NSString *) getImc;
 -(NSString *) getNome;
 

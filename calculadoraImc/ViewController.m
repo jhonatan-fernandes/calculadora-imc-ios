@@ -20,12 +20,11 @@
     
     Pessoa * pessoa =  [Pessoa new];
     [pessoa setNome:@"Abilio Bittencourt"];
-    [pessoa setPeso:100];
-    [pessoa setAltura:185];
+    [pessoa setPeso:70];
+    [pessoa setAltura:1.85];
     [pessoa setIdade:24];
     [pessoa setGenero:@"menino"];
-    NSLog(@"%f", [pessoa getEmc]);
-    //NSLog(@"%@", [pessoa getImc]);
+    NSLog(@"%@", [pessoa getImc]);
     
 }
 - (void)didReceiveMemoryWarning {
