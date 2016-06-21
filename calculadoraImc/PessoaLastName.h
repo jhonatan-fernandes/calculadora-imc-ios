@@ -10,4 +10,6 @@
 
 @interface PessoaLastName : Pessoa
 
+@property (strong) NSString * sobreNome;
+
 @end

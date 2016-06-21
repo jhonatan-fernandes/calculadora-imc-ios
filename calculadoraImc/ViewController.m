@@ -18,13 +18,16 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    Pessoa * pessoa =  [Pessoa new];
-    [pessoa setNome:@"Abilio Bittencourt"];
-    [pessoa setPeso:70];
-    [pessoa setAltura:1.85];
+    
+    
+    
+    PessoaLastName * pessoa =  [PessoaLastName new];
+    [pessoa setNome:@"Abilio"];
+    [pessoa setNome:@"Bittencourt"];
+    [pessoa setPeso:self.pegaPeso.text.floatValue];
+    [pessoa setAltura:self.pegaAltura.text.floatValue];
     [pessoa setIdade:24];
     [pessoa setGenero:@"menino"];
-    NSLog(@"%@", [pessoa getImc]);
     
 }
 - (void)didReceiveMemoryWarning {
@@ -32,4 +35,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+- (IBAction)calcula:(UIButton *)sender {
+    NSLog(@"@%" [pessoa getImc]);
+}
 @end
